@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+    color:black;
+}
+
+.navbar{
+    height: 50px;
+    width: auto;
+    background-color: transparent;
+    
+    margin-top: 5px;
+    display: flex;
+    
+}
+#logo{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    margin-left: 10px;
+    padding-right: 100px;
+}
+a{
+    margin-left: 150px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+.container{
+    width: auto;
+    height: 700px;
+    
+    margin-top: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Resturant.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.welcome{
+    height: 500px;
+    width: 600px;
+    border-radius: 15px;
+    background-color:rgba(0, 0, 0, 0.2); 
+}
+.welcome h1{
+    font-family: cursive;
+    text-align: center;
+    margin-top: 50px;
+}
+.welcome p{
+    font-family: cursive;
+    text-align: center;
+    margin-top: 220px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.menu{
+    height:800px;
+    width: auto;
+    
+    margin-top: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.food1{
+    height: 350px;
+    width: 250px;
+  
+    margin-right: 15px;
+    margin-left: 5px;
+}
+.food1 h3{
+    padding-left: 20px;
+    font-size: 25px;
+    font-family: cursive;
+}
+.food1 p{
+    padding-left: 20px;
+    font-size: 25px;
+    font-family: cursive;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+.food2{
+    height: 350px;
+    width: 250px;
+    
+    margin-right: 15px;
+}
+.food2 h3{
+    padding-left: 20px;
+    font-size: 25px;
+    font-family: cursive;
+}
+.food2 p{
+    padding-left: 20px;
+    font-size: 25px;
+    font-family: cursive;
+    padding-bottom: 10px;
+}  
+
+
+
+
+
+
+.food3{
+    height: 350px;
+    width: 250px;
+    
+    margin-right: 15px;
+}
+.food3 h3{
+    padding-left: 20px;
+    font-size: 25px;
+    font-family: cursive;
+}
+.food3 p{
+    padding-left: 20px;
+    font-size: 25px;
+    font-family: cursive;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+.food4{
+    height: 350px;
+    width: 250px;
+   
+    margin-right: 15px;
+}
+.food4 h3{
+    padding-left: 20px;
+    font-size: 25px;
+    font-family: cursive;
+}
+.food4 p{
+    padding-left: 20px;
+    font-size: 25px;
+    font-family: cursive;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+.food5{
+    height: 350px;
+    width: 250px;
+    
+    margin-right: 15px;
+}
+.food5 h3{
+    padding-left: 20px;
+    font-size: 25px;
+    font-family: cursive;
+}
+.food5 p{
+    padding-left: 20px;
+    font-size: 25px;
+    font-family: cursive;
+    padding-bottom: 10px;
+}
+
+
+
+
+.food6{
+    height: 350px;
+    width: 250px;
+    
+    margin-right: 15px;
+}
+.food6 h3{
+    padding-left: 20px;
+    font-size: 25px;
+    font-family: cursive;
+}
+.food6 p{
+    padding-left: 20px;
+    font-size: 25px;
+    font-family: cursive;
+    padding-bottom: 10px;
+}
+
+
+
+
+.food7{
+    height: 350px;
+    width: 250px;
+   
+    margin-right: 15px;
+}
+.food7 h3{
+    padding-left: 20px;
+    font-size: 25px;
+    font-family: cursive;
+}
+.food7 p{
+    padding-left: 20px;
+    font-size: 25px;
+    font-family: cursive;
+    padding-bottom: 10px;
+}
+
+
+
+
+.food8{
+    height: 350px;
+    width: 250px;
+    
+    margin-right: 15px;
+}
+.food8 h3{
+    padding-left: 20px;
+    font-size: 25px;
+    font-family: cursive;
+}
+.food8 p{
+    padding-left: 20px;
+    font-size: 25px;
+    font-family: cursive;
+    padding-bottom: 10px;
+}
+
+
+
+
+.food9{
+    height: 350px;
+    width: 250px;
+    
+    margin-right: 15px;
+}
+.food9 h3{
+    padding-left: 20px;
+    font-size: 25px;
+    font-family: cursive;
+}
+.food9 p{
+    padding-left: 20px;
+    font-size: 25px;
+    font-family: cursive;
+    padding-bottom: 10px;
+}
+
+
+
+
+.border:hover{
+    border: 1.5px solid rgb(160, 160, 160);
+}
+.border:active{
+    background-color:rgba(0, 0, 0, 0.167); ;
+
+}
+
+/*pics*/
+
+
+.pizza{
+    height: 270px;
+    width: 180px;
+    background-image: url(Pizza.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    position: relative;
+    left: 40px;
+    top: 10px;
+}
+.Platter{
+    height: 270px;
+    width: 180px;
+    background-image: url(Platter.jpg.avif);
+    background-size: contain;
+    border-radius: 20px;
+    position: relative;
+    left: 40px;
+    top: 10px;
+}
+.biryani{
+    height: 270px;
+    width: 180px;
+    background-image: url(Biryani.jpeg.png);
+    background-size: cover;
+    border-radius: 20px;
+    position: relative;
+    left: 40px;
+    top: 10px;
+}
+.nonveg{
+    height: 270px;
+    width: 180px;
+    background-image: url(Nonveg.jpg);
+    background-size: contain;
+    border-radius: 20px;
+    position: relative;
+    left: 40px;
+    top: 10px;
+}
+.veg{
+    height: 270px;
+    width: 180px;
+    background-image: url(Salad.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    position: relative;
+    left: 40px;
+    top: 10px;
+}
+.breakfast{
+    height: 270px;
+    width: 180px;
+    background-image: url(Breakfast-board28.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    position: relative;
+    left: 40px;
+    top: 10px;
+}
+.hookah{
+    height: 270px;
+    width: 180px;
+    background-image: url(Hookah.jpeg);
+    background-size: contain;
+    
+    border-radius: 20px;
+    position: relative;
+    left: 40px;
+    top: 10px;
+}
+.soft{
+    height: 270px;
+    width: 180px;
+    background-image: url(Soft.jpg.webp);
+    background-size: cover;
+    border-radius: 20px;
+    position: relative;
+    left: 40px;
+    top: 10px;
+}
+.hard{
+    height: 270px;
+    width: 180px;
+    background-image: url(Hard\ drink.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    position: relative;
+    left: 40px;
+    top: 10px;
+}
+
+.contact{
+    height: 100px;
+    background-color: #393636;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+}
+.contact ul{
+    margin-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+
+}
+.contact li{
+    color: white;
+}
+.contact h3{
+    color: white;
+}
+
+.copyright{
+    height: 80px;
+    background-color: #272727;
+    text-align: center;
+    
+}
+.copyright h3{
+    color: white;
+}
+
+.copyright p{
+    padding-top: 30px;
+    color: white;
+}
